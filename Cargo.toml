@@ -20,7 +20,7 @@ bevy = "0.13.0"
 etagere = "0.2.8"
 
 vello = "0.1.0"
-rive-rs = { path = "../rive-rs/rive-rs", features = ["vello"] }
+rive-rs = { git = "https://github.com/bcolloran/rive-rs/", rev = "c92cc21935345e70780f6912d3d37d192b56333c", features = ["vello"] }
 
 
 [dev-dependencies]
